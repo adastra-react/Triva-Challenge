@@ -1,0 +1,22 @@
+.home_container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.home_inner_container{
+    background-color: #dcdcdc;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 40px;
+    display: flex;
+    width: 400px;
+    height: 640px;
+}
+
+.begin_btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}

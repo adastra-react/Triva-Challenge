@@ -1,0 +1,81 @@
+.quiz_container, .answer_container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.question_box_container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer_button_container > button{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.answer_button_container{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.answer_text_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.answer_text_container > div{
+    text-align: left;
+}
+
+.question_cont{
+    width: 80%;
+}
+
+.quiz_inner_container{
+    background-color: #dcdcdc;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    width: 500px;
+    height: 640px;
+}
+
+.answer_inner_container{
+    background-color: #dcdcdc;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 40px;
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+
+.question_box{
+    height: 290px;
+    width: 290px;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    word-wrap: break-word;
+    justify-content: center;
+    border: 1px solid black;
+    align-self: center;
+}
+
+.answer_txt{
+    font-size: 17px;
+    color: #777777;
+    font-weight: 500;
+}
+
+.restart_button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
